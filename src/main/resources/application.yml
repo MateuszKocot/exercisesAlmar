@@ -1,15 +1,26 @@
+server:
+  port: 2137
+
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/cwiczenia
     username: mateusz
     password: mateusz
+    driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
       ddl-auto: update
+    show-sql: true
     properties:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
-  main:
-    log-startup-info: true
-
-
+        format_sql: true
+  data:
+    jpa:
+      auditing:
+        enabled: true
+logging:
+  level:
+    pl.mateusz.trening: INFO
+    org.hibernate.SQL: DEBUG
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
