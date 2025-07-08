@@ -7,24 +7,25 @@ I. Wymagania instalacyjne
 1. Zainstalować JAVA 11 (https://adoptopenjdk.net/)
 • Sprawdzić czy komenda w cmd (java --version) drukuje informacje o wersji do
 konsoli
-2. Zainstalować Maven 3 (https://maven.apache.org/)
+
+3. Zainstalować Maven 3 (https://maven.apache.org/)
 • Sprawdzić czy komenda w cmd (mvn --version) drukuje informacje o wersji do
 konsoli
-3. Zainstalować Git (https://git-scm.com/)
+4. Zainstalować Git (https://git-scm.com/)
 • Sprawdzić czy komenda w cmd (git --version) drukuje informacje o wersji do
 konsoli
 • Utworzyć repozytorium lokalne dla projektu
 • Utworzyć repozytorium zdalne (np. na GitHub)
 • Połączyć repozytorium lokalne ze zdalnym
 • Uzupełnić plik .gitignore
-4. Zainstalować IntelliJ IDEA (https://www.jetbrains.com/idea/)
+5. Zainstalować IntelliJ IDEA (https://www.jetbrains.com/idea/)
 • Zainstalować plugin do lomboka
 • Wersja community też może być
-5. Zainstalować PostgreSQL (https://www.postgresql.org/)
+6. Zainstalować PostgreSQL (https://www.postgresql.org/)
 • Utworzyć użytkownika bazy danych
 • Założyć bazę danych
 • Podłączyć się do bazy danych (np. przez PgAdmin i sprawdzić czy działa)
-6. Zainicjować projekt (https://start.spring.io/)
+7. Zainicjować projekt (https://start.spring.io/)
 • Zależności: Lombok, Spring Data JPA, PostgreSQL Driver, Spring Data JDBC,
 Rest Repositories, Spring Configuration Processor
 • Maven Project, Java (11), Jar, Spring Boot 2.5.1
